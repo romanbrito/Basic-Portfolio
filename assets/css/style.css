@@ -1,11 +1,12 @@
 body {
 
 	background-image:url("../../assets/images/background.png");
-
+	width: 960px;
+	margin: auto;
 }
 
 #container  {
-	width: 960px;
+width: auto;
 
 }
 #container logo {
@@ -38,15 +39,25 @@ a {
 	padding: 8px;
 	display: block;
 	background-color: #dddddd;
+	float: left;
 }
 
 section {
 	height: 550px;
-	width: 495px;
+	width: 50%;
 	float: left;
 }
 aside {
 	height: 550px;
 	width: auto;
 	overflow: hidden;
+	width: 50%;
+}
+
+h1,h2{
+	clear: both;
+}
+
+nav{
+	float: right;
 }
