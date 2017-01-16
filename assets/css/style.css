@@ -1,6 +1,7 @@
 body {
 
 	background-image:url("../../assets/images/background.png");
+	background-size: cover;
 	width: 960px;
 	margin: auto;
 }
