@@ -91,6 +91,9 @@ section {
 	border: solid #dddddd 1px;
 }
 
+section h1 {
+	border-bottom: solid #dddddd 2px;
+}
 .left {
 	float: left;
 	padding: 5px;
@@ -112,11 +115,50 @@ footer{
 	text-align: center;
 	padding: 20px;
 	border-top: solid #4aaaa5 5px;
-	/* stiky footer
+	/* stiky footer */
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	height: 58px;
 	width: 100%;
-*/
+
+}
+
+/* Form */
+form input {
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0;
+    border: solid #dddddd 1px;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color:#777777;
+}
+
+textarea{
+	border: solid #dddddd 1px;
+}
+input[type="submit"] {
+    background: #4aaaa5;
+    color: #ffffff;
+    width: 150px;
+    padding: 10px;
+}
+
+td img {
+    width: 200px;
+    height: 100px;
+}
+
+table {
+	padding-left:130px;
+}
+
+td h3 {
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    position: absolute;
+    margin-top: -55px;
+    text-align: center;
+    width: 180px;
 }
