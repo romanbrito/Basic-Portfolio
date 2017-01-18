@@ -110,18 +110,16 @@ aside {
 }
 
 footer{
-	background: #666666;
-	color: #ffffff;
-	text-align: center;
-	padding: 20px;
-	border-top: solid #4aaaa5 5px;
-	/* stiky footer */
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 58px;
-	width: 100%;
-
+    background: #666666;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 10px;
+    border-top: solid #4aaaa5 5px;
+/* sticky footer */
+    position: absolute;
+    bottom: 0;
+    height: 58px;
+    width: 960px;
 }
 
 /* Form */
