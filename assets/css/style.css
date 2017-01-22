@@ -91,11 +91,19 @@ h4 {
     width: 280px;
     font-size: 18px;
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 1px;
 }
 
 p{
   margin: 16px 0;
+  line-height: 150%;
+  text-align: justify;
+}
+
+span a {
+    padding: 0;
+    float: none;
+    display: inline;
 }
 .clear{
   /*clearfix*/
@@ -114,9 +122,12 @@ section {
 }
 
 article {
-    padding-top: 30px;
+    padding-top: 5px;
 }
-
+article img{
+  width: 200px;
+  height: 200px;
+}
 
 .left {
 	float: left;
@@ -169,10 +180,12 @@ input[type="submit"] {
 
 td img {
     width: 300px;
-    height: 150px;
-    padding: 10px;
+    height: 225px;
+    padding: 1px;
 }
-
+td a {
+  padding: 0;
+}
 table {
   margin: auto;
 }
